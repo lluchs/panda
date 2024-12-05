@@ -3,11 +3,11 @@
     "libosi-src": {
       "flake": false,
       "locked": {
-        "lastModified": 1693574302,
-        "narHash": "sha256-rHbfp1llyVEvHw+sz+rCmx9DrR/e1nnJYRidhPM3jZY=",
+        "lastModified": 1728766783,
+        "narHash": "sha256-J1PD5pIYRK1tdIo4llhm/n3aa+bg066yrKNAx6zN1WE=",
         "owner": "panda-re",
         "repo": "libosi",
-        "rev": "c68bafdb7e2a4d83128ae6ba0f5f70e28318eda0",
+        "rev": "8b1d9f172d58761b646d2bc43fdcde1d0227f479",
         "type": "github"
       },
       "original": {
@@ -16,24 +16,68 @@
         "type": "github"
       }
     },
+    "nix-filter": {
+      "locked": {
+        "lastModified": 1731533336,
+        "narHash": "sha256-oRam5PS1vcrr5UPgALW0eo1m/5/pls27Z/pabHNy2Ms=",
+        "owner": "numtide",
+        "repo": "nix-filter",
+        "rev": "f7653272fd234696ae94229839a99b73c9ab7de0",
+        "type": "github"
+      },
+      "original": {
+        "owner": "numtide",
+        "repo": "nix-filter",
+        "type": "github"
+      }
+    },
     "nixpkgs": {
       "locked": {
-        "lastModified": 1699725108,
-        "narHash": "sha256-NTiPW4jRC+9puakU4Vi8WpFEirhp92kTOSThuZke+FA=",
-        "owner": "NixOS",
-        "repo": "nixpkgs",
-        "rev": "911ad1e67f458b6bcf0278fa85e33bb9924fed7e",
-        "type": "github"
+        "lastModified": 0,
+        "narHash": "sha256-En+gSoVJ3iQKPDU1FHrR6zIxSLXKjzKY+pnh9tt+Yts=",
+        "path": "/nix/store/45bzbkwnyb6nikgc7jkrn7vjibhy4xhk-source",
+        "type": "path"
       },
       "original": {
         "id": "nixpkgs",
         "type": "indirect"
       }
     },
+    "nixpkgs-wireshark": {
+      "locked": {
+        "lastModified": 1654613154,
+        "narHash": "sha256-Kqpik8NNIzErNoeiQc6FS9F7RMVuG9ykZzVkL+Z7nXg=",
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "rev": "e93823409f9e6b8e878edf060b430a14353a28f9",
+        "type": "github"
+      },
+      "original": {
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "rev": "e93823409f9e6b8e878edf060b430a14353a28f9",
+        "type": "github"
+      }
+    },
+    "panda-config": {
+      "flake": false,
+      "locked": {
+        "narHash": "sha256-d6xi4mKdjkX2JFicDIv5niSzpyI0m/Hnm8GGAIU04kY=",
+        "type": "file",
+        "url": "file:/dev/null"
+      },
+      "original": {
+        "type": "file",
+        "url": "file:/dev/null"
+      }
+    },
     "root": {
       "inputs": {
         "libosi-src": "libosi-src",
-        "nixpkgs": "nixpkgs"
+        "nix-filter": "nix-filter",
+        "nixpkgs": "nixpkgs",
+        "nixpkgs-wireshark": "nixpkgs-wireshark",
+        "panda-config": "panda-config"
       }
     }
   },
